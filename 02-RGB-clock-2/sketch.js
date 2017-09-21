@@ -16,7 +16,7 @@ function draw() {
 
 	background(240);
 
-	// move the origin to the pivot point
+	// hour ellipse 
 	push(); 
 	translate(height/2, width/2); 
 	rotate(h);
@@ -25,6 +25,7 @@ function draw() {
 	ellipse(0, 0, hour()*5+160, hour()*5+80);
 	pop(); 
 
+	// minute ellipse
 	push(); 
 	translate(height/2, width/2); 
 	rotate(m);
@@ -33,37 +34,13 @@ function draw() {
 	ellipse(0, 0, minute()*2.5+40, minute()*2.5+160);
 	pop(); 
 
+	// second ellipse 
 	push(); 
 	translate(height/2, width/2); 
 	rotate(s);
 	fill(0, 0, 255, 128);
 	stroke(0, 0, 255, 128);
 	ellipse(0, 0, second()*2.5+20, second()*2.5+320);
-	pop(); 
-
-
-
-
-	// draw three different shapes of ellipse representing hour, minute, and second 
-	// push(); 
-	// translate(250, 250); 
-	// rotate(h); 
-	// fill(255, 0, 0)  
-	// rect(250, 250, 300, 200);
-	// pop(); 
-
-	// push(); 
-	// translate(250, 250); 
-	// rotate(m);
-	// fill(0, 255, 0); 
-	// rect(250, 250, 350, 100); 
-	// pop(); 
-	
-	// push(); 
-	// translate(250, 250); 
-	// rotate(s);
-	// fill(0, 0, 255); 
-	// rect(250, 250, 400, 50); 
-	// pop(); 
+	pop();
 	
 }
