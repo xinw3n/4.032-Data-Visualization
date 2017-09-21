@@ -8,19 +8,17 @@ function setup() {
 
 //this gets called every frame (about 60 frames per second)
 function draw() {
-  background(255);
-  //fill the background with color value determined by h, m, s
-  for i in range(1,6){
-  	int m = minute()>>i; 
-  	if (m & 0x01 == 0x00){
-  		fill(0); 
-  	}
-  	else if (m & 0x01 == 0x01){
-  		fill(255); 
-  	}
-  	rect((i-1)*255/6, 0, 500/6, 500/6); 
+  background(200);
+
+  if(binary(second()) & 0x01 == 0){
+    fill(0); 
   }
-  	
+  else{
+    fill(255)
+  }
+  rect(0, 0, 500/6, 500/3); 
+
+  //fill the background with color value determined by h, m, s
   
 
 }
