@@ -71,6 +71,7 @@ function draw() {
   
   
 function redraw() {
+  background(255); 
   fill(0); 
   for (var i=0; i <hour(); i++){
     var hc_x = random(500); 
