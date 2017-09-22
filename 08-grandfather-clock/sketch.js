@@ -41,3 +41,12 @@ function draw() {
   line(min_x, min_y, sec_x, sec_y); 
 }
 
+// When the user clicks the mouse
+function mousePressed() {
+  // Pick new random color values
+  r = random(255);
+  g = random(255);
+  b = random(255);
+  stroke(r, g, b); 
+}
+
