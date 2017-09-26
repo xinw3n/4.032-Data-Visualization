@@ -35,8 +35,8 @@ function draw() {
   sec_x = 250+sin(s)*150;
   sec_y = 300+cos(s)*150; 
 
-  strokeWeight(5); 
-  line(250,250, h_x, h_y); 
+  strokeWeight(3); 
+  line(250,100, h_x, h_y); 
   line(h_x, h_y, min_x, min_y); 
   line(min_x, min_y, sec_x, sec_y); 
 }
@@ -47,6 +47,6 @@ function mousePressed() {
   r = random(255);
   g = random(255);
   b = random(255);
-  stroke(r, g, b); 
+  stroke(r,g,b); 
 }
 

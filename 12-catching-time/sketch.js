@@ -7,7 +7,7 @@ function setup(){
 }
 
 function draw(){
-  background(200);
+  background(250);
   if (win){
   	displayTime(); 
   }
@@ -42,7 +42,11 @@ function Snitch() {
   }
 
   this.display = function() {
-  	fill(255); 
+  	r = random(255);
+    g = random(255);
+    b = random(255);
+    stroke(r,g,b);
+    fill(r, g, b); 
     ellipse(this.x, this.y, this.diameter, this.diameter);} 
 }
 

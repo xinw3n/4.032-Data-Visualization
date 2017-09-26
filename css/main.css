@@ -1,0 +1,206 @@
+
+.container {max-width: 1000px;}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: black;
+}
+h1 {
+  margin-bottom: 4px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+h2_1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: Red;
+  opacity: 1;
+  font-size: 17px;
+}
+
+h2_1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: Crimson;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h2_2 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: Gold;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h2_3 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: Forestgreen;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h2_4 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: gray;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h2_5 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: blue;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h3 {
+margin: 20;
+margin-bottom: 5px;
+color: black;
+opacity: 1;
+font-size: 27px;
+font-weight: bold;
+}
+
+h6 {
+  margin: 0;
+  margin-bottom: 30px;
+  color: black;
+  opacity: 1;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+h4 {
+margin: 0;
+margin-bottom: 30px;
+color: black;
+opacity: 1;
+font-size: 17px;
+text-decoration: underline;
+font-weight: bold;
+text-align: left;
+}
+h5 {
+margin: 0;
+margin-bottom: 20px;
+color: black;
+opacity: 1;
+font-size: 15px;
+font-weight: bold;
+text-align: left;
+text-decoration: underline;
+}
+i {
+  margin: 0;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 14px;
+}
+p
+{
+  margin: 0;
+  margin-bottom: 30px;
+}
+.menu {
+  text-align: right;
+  padding-top: 50px;
+}
+.menu > a {
+  display: block;
+  font-size: 15px;
+  opacity: 1;
+  color: gray;
+}
+.menu > a:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 1;
+}
+.menu > .active {
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+}
+.box {
+  margin: 0 -50px;
+  position: relative;
+  overflow: hidden;
+}
+.box > div {
+  position: absolute;
+  z-index: 1000px;
+  padding: 80px 40px;
+  background: white;
+  left: 0;
+  right: 50%;
+  bottom: -200px;
+  -webkit-transition: bottom 1s;
+  transition: bottom 1s;
+  opacity: 0.8;
+  font-size: 20px;
+}
+.box:hover > div {
+  bottom: 0;
+}
+.text-intro a {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: black;
+  font-style: bold;
+  text-decoration: none;
+}
+.text-intro a:hover {
+  opacity: 0.5;
+}
+body {
+  background: url(cover_pic.jpeg) center center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.portfolio-item {
+  margin-bottom: 10px;
+}
+.portfolio-item > a {
+  display: block;
+}
+.portfolio-item h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.portfolio-item p {
+  font-size: 14px;
+}
+.portfolio-item:nth-child(3n+1) {
+  clear: both;
+}
+a.image {
+  display: block;
+  width: 100%;
+  padding-bottom: 66.66%;
+  background: url(http://placehold.it/600x400) top center no-repeat;
+  background-size: contain;
+  box-shadow: 0 10px 10px -12px black;
+  margin: 0;
+}
+
+.full {
+  max-width: 100%;
+  display: block;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}

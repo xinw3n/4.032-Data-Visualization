@@ -106,6 +106,11 @@ function Jitter(type) {
   };
 
   this.display = function() {
+    r = random(255);
+    g = random(255);
+    b = random(255);
+    fill(r,g,b);
+    stroke(r,g,b); 
     ellipse(this.x, this.y, this.diameter, this.diameter);
   }
 }
