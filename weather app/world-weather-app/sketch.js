@@ -5,7 +5,7 @@
 // https://github.com/processing/p5.js/wiki/Local-server
 
 var queryResult;
-var r = 10; 
+var r = 15; 
 
 var topVal, bottomVal, leftVal, rightVal; 
 var x1, y1, x2, y2, x3, y3; 
@@ -68,6 +68,8 @@ function setup() {
   var b = map(temp, -40, 122, 50, 100); 
   fill(h, s, b); 
   ellipse(x1, y1, r); 
+  ellipse(x2, y2, r); 
+  ellipse(x3, y3, r); 
 
   
 
